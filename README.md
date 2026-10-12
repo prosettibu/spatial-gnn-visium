@@ -7,7 +7,7 @@
 
 **Answer:** Not when expression is rich — but as the expression signal weakens, a graph neural network that uses neighbors outperforms an expression-only model by up to 24 accuracy points. Spatial context acts as a denoiser: it helps most when each spot carries partial information.
 
-![Spatial context compensates for weak expression signal](figures/spatial_vs_expression.png)
+![Spatial context compensates for weak expression signal](figures/spatial_gnn.png)
 
 ## Data
 
