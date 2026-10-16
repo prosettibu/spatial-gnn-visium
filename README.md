@@ -71,7 +71,7 @@ The gap follows an inverted U. Neighbor aggregation fills in missing information
 
 ## Project 2: Spatially variable genes recover brain anatomy
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/prosettibu/spatial-gnn-visium/blob/main/spatially_variable_genes.ipynb)
+*Same notebook as Project 1, in the later cells.*
 
 **Question:** Which genes have expression that is patterned in space, rather than scattered randomly?
 
@@ -126,4 +126,4 @@ where $x_i$ is expression at spot $i$ and $w_{ij} = 1$ if spots $i$ and $j$ are 
 
 ## Run it
 
-Open either notebook in Colab (badges above), set **Runtime → T4 GPU** (needed for Project 1 only), and run all cells. Dependencies: `torch`, `torch_geometric`, `squidpy`, `scanpy`.
+Open the notebook in Colab (badge above), set **Runtime → T4 GPU** (needed for Project 1 only), and run all cells. Dependencies: `torch`, `torch_geometric`, `squidpy`, `scanpy`.
